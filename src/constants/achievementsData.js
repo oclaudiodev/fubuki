@@ -1,0 +1,60 @@
+const achievementsData = [
+  {
+    icon: "🏆",
+    title: "1st Place - CPN 13",
+    event: "B-Tier",
+    year: "2025-09-14",
+    rank: 1,
+    desc: "Win listed in the Achievements table with a prize of US$ 2,806.",
+  },
+  {
+    icon: "🥈",
+    title: "2nd Place - CPN Favela Gaming 2025",
+    event: "B-Tier",
+    year: "2025-09-28",
+    rank: 2,
+    desc: "Runner-up result listed on the main Liquipedia page with a prize of US$ 1,869.",
+  },
+  {
+    icon: "🏆",
+    title: "1st Place - MAX Fyre League Season 4",
+    event: "B-Tier",
+    year: "2024-02-23",
+    rank: 1,
+    desc: "One of the highlighted 2024 wins on the overview page, worth US$ 3,022.",
+  },
+  {
+    icon: "🥈",
+    title: "2nd Place - Liga Alien Season 1",
+    event: "B-Tier",
+    year: "2024-09-12",
+    rank: 2,
+    desc: "Top placement recorded in the Achievements section with US$ 1,764 prize money.",
+  },
+  {
+    icon: "⭐",
+    title: "MVP - CPN 2023 Stage 1",
+    event: "Awards",
+    year: "2023-06-25",
+    rank: 1,
+    desc: "Individual award listed under the Awards section on Liquipedia.",
+  },
+  {
+    icon: "⭐",
+    title: "MVP - Liga das Americas Season 3",
+    event: "Awards",
+    year: "2022-12-03",
+    rank: 1,
+    desc: "Second MVP listed in the Awards table on the player page.",
+  },
+  {
+    icon: "🔥",
+    title: "Best Revelation Player",
+    event: "NFA Awards 2022",
+    year: "2022",
+    rank: 1,
+    desc: "Mentioned in the gallery and trivia references as a 2022 NFA Awards recognition.",
+  },
+];
+
+export default achievementsData;
