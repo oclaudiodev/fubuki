@@ -95,121 +95,14 @@ export default function BioSection() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: isMobile ? "1fr" : "minmax(280px, 420px) minmax(0, 1fr)",
+          gridTemplateColumns: "1fr",
           gap: 24,
           alignItems: "stretch",
+          maxWidth: 860,
+          margin: "0 auto",
+          width: "100%",
         }}
       >
-        <FadeIn direction="up">
-          <Card3D maxTilt={6} glareOpacity={0.08} scale={1.01}>
-            <div
-              style={{
-                position: "relative",
-                height: "100%",
-                minHeight: isMobile ? 360 : 620,
-                background: "linear-gradient(180deg, rgba(18,18,18,0.96), rgba(4,4,4,0.98))",
-                border: `1px solid ${colors.border}`,
-                overflow: "hidden",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <img
-                src="/fbk.png"
-                alt="Foto do Fubuki"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "contain",
-                  objectPosition: "center center",
-                  display: "block",
-                  background: "radial-gradient(circle at center, rgba(204,0,0,0.12), rgba(0,0,0,0.95) 70%)",
-                  padding: isMobile ? 12 : 20,
-                }}
-              />
-
-              <div
-                style={{
-                  position: "absolute",
-                  inset: 0,
-                  background:
-                    "linear-gradient(180deg, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.18) 45%, rgba(0,0,0,0.84) 100%)",
-                }}
-              />
-
-              <div
-                style={{
-                  position: "absolute",
-                  left: 20,
-                  right: 20,
-                  bottom: 20,
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "end",
-                  gap: 12,
-                  flexWrap: "wrap",
-                }}
-              >
-                <div>
-                  <div
-                    style={{
-                      fontFamily: "var(--font-m,monospace)",
-                      fontSize: "0.58rem",
-                      color: colors.redBright,
-                      letterSpacing: "0.2em",
-                      textTransform: "uppercase",
-                      marginBottom: 8,
-                    }}
-                  >
-                    Perfil oficial
-                  </div>
-                  <div
-                    style={{
-                      fontFamily: "var(--font-d,sans-serif)",
-                      fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
-                      color: colors.white,
-                      letterSpacing: "0.06em",
-                    }}
-                  >
-                    <BrandWord />
-                  </div>
-                </div>
-
-                <div
-                  style={{
-                    padding: "8px 12px",
-                    background: "rgba(0,0,0,0.72)",
-                    border: "1px solid rgba(204,0,0,0.25)",
-                  }}
-                >
-                  <div
-                    style={{
-                      fontFamily: "var(--font-m,monospace)",
-                      fontSize: "0.52rem",
-                      color: colors.gray,
-                      letterSpacing: "0.16em",
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    Status
-                  </div>
-                  <div
-                    style={{
-                      fontFamily: "var(--font-d,sans-serif)",
-                      fontSize: "0.78rem",
-                      color: colors.red,
-                      letterSpacing: "0.08em",
-                    }}
-                  >
-                    ATIVO
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Card3D>
-        </FadeIn>
-
         <div style={{ display: "grid", gap: 18 }}>
           <FadeIn delay={0.08} direction="up">
             <Card3D maxTilt={5} glareOpacity={0.06} scale={1.01}>
